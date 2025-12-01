@@ -272,3 +272,12 @@ privilegemap_table_all:
     privilege: ALL
     database: TEST_1
     schema: SCD_4
+
+users:
+  - username: FULL_ACCESS_USER
+    user_full_name: FULL_ACCESS_USER
+    roles:
+      - FULL_RW_DR
+      - FULL_RW_FR
+    password: "@LeoMessi10"
+    default_role: FULL_RW_DR
